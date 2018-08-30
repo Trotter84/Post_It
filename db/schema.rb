@@ -23,12 +23,4 @@ ActiveRecord::Schema.define(version: 2018_08_30_224321) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "pages", force: :cascade do |t|
-    t.string "title"
-    t.string "author"
-    t.text "body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
